@@ -143,7 +143,7 @@ body{
 	width: 100%;
 	height: 69vh;
 	background-size: cover;
-	background-position: top;
+	background-position: center;
 }
 .box-img-primer{
 	background: url(../img/img2.jpg);
@@ -213,13 +213,11 @@ body{
    display: table;
    height:26.5vh;
    padding: 0;
-   border:1px solid red;
    margin: 0;
 }
 .padre2 {
    display: table;
    height:38vh;
-   border:1px solid red;
    margin: 0;
 }
 .hijo {
