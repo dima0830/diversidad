@@ -270,7 +270,7 @@ body{
 	background: #fee21f;
 }
 .fgrand{
-	font-size: 25px;
+	font-size: 29px;
 }
 .fmd {
 	font-size: 24px;
@@ -284,7 +284,7 @@ body{
 .imagenback1{
 	position: absolute;
 	width: auto;
-	height: 80%;
+	height: 70%;
 	margin: 10px auto;
 	right: 30%;
 	left: 30%;
