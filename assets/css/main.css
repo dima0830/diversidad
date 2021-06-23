@@ -24,7 +24,6 @@ body{
 .box-tamano{
 	width: 100%;
 	height: 100vh;
-	border:1px solid blue;
 }
 .bq-primario{
 	background-image: url(../img/img1.jpg);
@@ -51,14 +50,12 @@ body{
 }
 .bq-texto{
 	position: relative;
-	border:1px solid yellow;
 	height: 30vh;
 }
 .box-cont .img-texto{
 	width: 100%;
 }
 .conte-texto {
-	border:1px solid red;
 	position: absolute;
 	width: 80%;
 	height: 90%;
