@@ -3,33 +3,70 @@
 body{
 	font-family: 'Lato', sans-serif;
 }
+.color1{
+	background: rgba( 55, 213, 234, 0.59);
+}
+.color2{
+	background: rgba( 254, 226, 31, 0.59);
+}
+.color3{
+	background: rgba( 243, 86, 5, 0.59);
+}
+.color4{
+	background: rgba( 17, 96, 113, 0.59);
+}
+.color5{
+	background: rgba( 210, 124, 1, 0.59);
+}
+.color6{
+	background: rgba( 1, 173, 189, 0.59);
+}
+.box-tamano{
+	width: 100%;
+	height: 100vh;
+	border:1px solid blue;
+}
 .bq-primario{
 	background-image: url(../img/img1.jpg);
 	background-size: cover;
 	background-position: center;
 	display: block;
 	width: 100%;
+	height: 70vh;
+	position: relative;
 }
 .box-cont{
-	padding: 40px 20px;
+	padding: 5px;
 }
 .logo{
-	width: 180px;
+	width: 150px;
 	float: right;
 }
-.box-cont p{
-	letter-spacing: 0.5px;
-	display: block;
-	margin-top: 430px;
-	font-size: 90px;
-	text-align: center;
-	color: #fff;
-	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-	-webkit-text-stroke-width: 3px;
-	-webkit-text-stroke-color: #fff;
-	line-height: 1;
+.cont-timenu {
+	width: 90%;
+	position: absolute;
+	bottom:3%;
+	left: 5%;
+	right: 5%;
 }
-
+.bq-texto{
+	position: relative;
+	border:1px solid yellow;
+	height: 30vh;
+}
+.box-cont .img-texto{
+	width: 100%;
+}
+.conte-texto {
+	border:1px solid red;
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	left: 10%;
+	right: 10%;
+	top: 5%;
+	overflow-y: auto;
+}
 .contmenu {
 	margin: 0px 3px;
 }
@@ -51,24 +88,7 @@ body{
 	text-decoration: none;
 	color: #fff;
 }
-.color1{
-	background: rgba( 55, 213, 234, 0.59);
-}
-.color2{
-	background: rgba( 254, 226, 31, 0.59);
-}
-.color3{
-	background: rgba( 243, 86, 5, 0.59);
-}
-.color4{
-	background: rgba( 17, 96, 113, 0.59);
-}
-.color5{
-	background: rgba( 210, 124, 1, 0.59);
-}
-.color6{
-	background: rgba( 1, 173, 189, 0.59);
-}
+
 .bq-texto{
 	padding: 20px;
 }
@@ -77,13 +97,12 @@ body{
 }
 .quote {
 	display: block;
-	margin: 20px auto;
-	width: 100px;
+	margin: 20px auto 1px;
+	width: 50px;
 }
 .titu{
-	font-weight: 700;
 	margin-bottom: 15px;
-	font-size: 50px;
+	font-size: 30px;
 }
 .prrafo {
 	font-size: 18px;
@@ -92,7 +111,7 @@ body{
 	color: #fff;
 }
 .cita {
-	font-size:24px;
+	font-size:18px;
 	font-weight: normal;
 	margin: 0 0 3px; 
 	line-height: 1;
@@ -101,7 +120,7 @@ body{
 	color: #606060;
 }
 .fuente{
-	font-size:14px;
+	font-size:12px;
 	font-weight: normal;
 	opacity: 0.5;
 }
@@ -205,13 +224,15 @@ body{
   transform: rotate(360deg)
 }
 /* ===== responsive ============*/
-@media (max-width: 768px) {
-
+@media (max-width: 767px) {
+ .titu {
+		font-size: 20px;
+	}
 	.box-cont{
-		padding: 40px 20px;
+		padding: 10px;
 	}
 	.logo{
-		width: 180px;
+		width: 100px;
 		float: right;
 	}
 	.box-cont p{
@@ -229,4 +250,36 @@ body{
 	.imagenback{
 		display: none;
 	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .titu {
+		font-size:35px;
+	}
+	.quote {
+	display: block;
+	margin: 20px auto 10px;
+	width: 50px;
+}
+.cita {
+	font-size:24px;;
+	margin:40px 0 3px; 
+}
+
+.fuente{
+	font-size:16px;
+	font-weight: normal;
+	opacity: 0.5;
+}
+}
+@media (min-width: 992px) and (max-width: 1024px){
+
+}
+@media (min-width: 1024px) and (max-width: 1366px){
+
+}
+@media (min-width: 2001px) and (max-width: 2500px){
+
+}
+@media (min-width: 2501px){
+
 }
