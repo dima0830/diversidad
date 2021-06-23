@@ -21,6 +21,21 @@ body{
 .color6{
 	background: rgba( 1, 173, 189, 0.59);
 }
+.w70{
+	width: 70%;
+	display: block;
+	margin: 10px auto;
+}
+.w80{
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+}
+.w90{
+	width: 90%;
+	display: block;
+	margin: 10px auto;
+}
 .box-tamano{
 	width: 100%;
 	height: 100vh;
@@ -40,29 +55,6 @@ body{
 .logo{
 	width: 150px;
 	float: right;
-}
-.cont-timenu {
-	width: 90%;
-	position: absolute;
-	bottom:3%;
-	left: 5%;
-	right: 5%;
-}
-.bq-texto{
-	position: relative;
-	height: 30vh;
-}
-.box-cont .img-texto{
-	width: 100%;
-}
-.conte-texto {
-	position: absolute;
-	width: 80%;
-	height: 90%;
-	left: 10%;
-	right: 10%;
-	top: 5%;
-	overflow-y: auto;
 }
 .contmenu {
 	margin: 0px 3px;
@@ -85,24 +77,123 @@ body{
 	text-decoration: none;
 	color: #fff;
 }
-
+.cont-timenu {
+	width: 90%;
+	position: absolute;
+	bottom:3%;
+	left: 5%;
+	right: 5%;
+}
 .bq-texto{
+	position: relative;
+	height: 30vh;
+	padding: 20px;
+}
+.box-cont .img-texto{
+	width: 100%;
+}
+.conte-texto {
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	left: 10%;
+	right: 10%;
+	top: 5%;
+	overflow-x: auto;
+	padding: 0;
+}
+.conte-texto2 {
+	position: absolute;
+	width: 100%;
+	height: 95%;
+	left: 0;
+	top: 2%;
+	overflow-x: auto;
+	padding: 0;
+}
+.conte-texto3 {
+	position: absolute;
+	width:90%;
+	height: 95%;
+	left:5%;
+	right: 5%;
+	top: 2%;
+	overflow-x: auto;
+	padding: 0;
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #d1d2d3; 
+}
+.box-tamano .box-img{
+	width: 100%;
+	height: 70vh;
+	background-size: cover;
+	background-position: top;
+}
+.box-img-primer{
+	background: url(../img/img2.jpg);
+}
+.box-tamano .box-img2{
+	width: 100%;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+}
+.box-img-segd{
+	background: url(../img/img3.jpg);
+}
+.bq-texto2{
+	position: relative;
+	height: 40vh;
 	padding: 20px;
 }
 .boxcol1 {
 	background: #37d5ea;
 }
+.tgris{
+	color: #606060;
+}
+.boxcol3{
+	background: #f35605;
+}
+.boxcol4{
+	background: #116071;
+}
 .quote {
 	display: block;
-	margin: 20px auto 1px;
+	margin: 5px auto 1px;
 	width: 50px;
 }
 .titu{
 	margin-bottom: 15px;
 	font-size: 30px;
 }
+.prrafo2 {
+	width: 90%;
+	margin: 0 auto 10px;
+	font-size: 16px;
+	line-height: 1.2;
+} 
 .prrafo {
+	width: 90%;
+	margin: 0 auto 10px;
 	font-size: 18px;
+	line-height: 1.2;
 } 
 .tbn{
 	color: #fff;
@@ -112,9 +203,6 @@ body{
 	font-weight: normal;
 	margin: 0 0 3px; 
 	line-height: 1;
-}
-.tgris{
-	color: #606060;
 }
 .fuente{
 	font-size:12px;
@@ -128,33 +216,19 @@ body{
 	font-weight: 700;
 }
 .subtitu{
-	font-size:50px;
-	text-align: center;
-	margin: -45px 0 50px;
-}
-.w70{
-	width: 70%;
-	display: block;
-	margin: 10px auto;
-}
-.w80{
-	width: 80%;
-	display: block;
-	margin: 10px auto;
-}
-.w90{
-	width: 90%;
-	display: block;
-	margin: 10px auto;
+	font-size:30px;
+	margin: 5px 0 18px;
+	padding: 0 20px;
+	line-height: 1;
 }
 .boximg{
-	margin: 90px 0 0;
-	padding: 40px;
+	margin:10px auto;
+	width:170px;
 	text-align: center;
 }
 .numerot{
 	color: #fff;
-	font-size: 30px;
+	font-size: 16px;
 	font-weight: 700;
 	text-align: center;
 	margin: 0;
@@ -168,12 +242,7 @@ body{
 .fmd {
 	font-size: 24px;
 }
-.boxcol3{
-	background: #f35605;
-}
-.boxcol4{
-	background: #116071;
-}
+
 .bx-relative{
 	position: relative;
 }
