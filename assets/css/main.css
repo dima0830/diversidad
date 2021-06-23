@@ -87,7 +87,7 @@ body{
 .bq-texto{
 	position: relative;
 	height: 30vh;
-	padding: 20px;
+	padding: 0 20px;
 }
 .box-cont .img-texto{
 	width: 100%;
@@ -104,12 +104,12 @@ body{
 }
 .conte-texto2 {
 	position: absolute;
-	width: 100%;
-	height: 95%;
-	left: 0;
-	top: 2%;
+	width: 95%;
+	height: 90%;
+	left: 2.5%;
+	top: 5%;
 	overflow-x: auto;
-	padding: 0;
+	padding: 0 20px;
 }
 .conte-texto3 {
 	position: absolute;
@@ -119,7 +119,7 @@ body{
 	right: 5%;
 	top: 2%;
 	overflow-x: auto;
-	padding: 0;
+	padding: 0 20px;
 }
 
 /* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
@@ -157,10 +157,31 @@ body{
 .box-img-segd{
 	background: url(../img/img3.jpg);
 }
+.box-img-terc{
+	background: url(../img/img4.jpg);
+}
+.box-img-cuart{
+	background: url(../img/img5.jpg);
+}
+.box-img-cinco{
+	background: url(../img/img6.jpg);
+}
+.box-img-seix{
+	background: url(../img/img7.jpg);
+}
+.box-img-siete{
+	background: url(../img/img8.jpg);
+}
+.box-img-ocho{
+	background: url(../img/img9.jpg);
+}
+.box-img-nueve{
+	background: url(../img/img10.jpg);
+}
 .bq-texto2{
 	position: relative;
 	height: 40vh;
-	padding: 20px;
+	padding: 0 20px;
 }
 .boxcol1 {
 	background: #37d5ea;
@@ -183,17 +204,29 @@ body{
 	margin-bottom: 15px;
 	font-size: 30px;
 }
-.prrafo2 {
-	width: 90%;
-	margin: 0 auto 10px;
-	font-size: 16px;
-	line-height: 1.2;
-} 
+.espc{
+	padding: 1vh;
+	display: block;
+}
+.padre {
+	width: 100%;
+   display: table;
+   height:26.5vh;
+   padding: 0;
+}
+.padre2 {
+   display: table;
+   height:38vh;
+}
+.hijo {
+   display: table-cell;
+   vertical-align: middle;
+}
 .prrafo {
 	width: 90%;
 	margin: 0 auto 10px;
-	font-size: 18px;
-	line-height: 1.2;
+	line-height: 1.1;
+	vertical-align: middle;
 } 
 .tbn{
 	color: #fff;
@@ -242,17 +275,22 @@ body{
 .fmd {
 	font-size: 24px;
 }
-
+.fpeq{
+	font-size:18px;
+}
 .bx-relative{
 	position: relative;
 }
-.imagenback{
+.imagenback1{
 	position: absolute;
-	width: 200px;
-	margin: 20px;
-	right: 40%;
-	left: 40%;
-	top: 25%;
+	width: auto;
+	height: 80%;
+	margin: 10px auto;
+	right: 30%;
+	left: 30%;
+	top:5%;
+	bottom: 5%;
+	z-index: 1;
 }
 /* scrolltop */
 	.scroll {
@@ -316,6 +354,13 @@ body{
 	.imagenback{
 		display: none;
 	}
+	.box-tamano .box-img{
+	background-size: cover;
+}
+
+.box-tamano .box-img2{
+	background-size: cover;
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .titu {
@@ -336,9 +381,22 @@ body{
 	font-weight: normal;
 	opacity: 0.5;
 }
+	.box-tamano .box-img{
+	background-size: cover;
+}
+
+.box-tamano .box-img2{
+	background-size: cover;
+}
 }
 @media (min-width: 992px) and (max-width: 1024px){
+	.box-tamano .box-img{
+	background-size: cover;
+}
 
+.box-tamano .box-img2{
+	background-size: cover;
+}
 }
 @media (min-width: 1024px) and (max-width: 1366px){
 
